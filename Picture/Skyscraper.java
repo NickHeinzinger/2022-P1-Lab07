@@ -5,6 +5,7 @@ import java.awt.*;
 public class Skyscraper {
     public static void drawFrame(Graphics g)
     {
+        g.setColor(Color.black);
         g.drawRect(400,75,200, 500);
 
         Color myGray = new Color(211, 211, 211);
